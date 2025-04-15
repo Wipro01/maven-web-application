@@ -121,10 +121,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.9</version>
+				<version>3.9.9</version>
 				<configuration>
-					<source>${jdk.version}</source>
-					<target>${jdk.version}</target>
+					<fork>true</fork>
+					<executable>/usr/lib/jvm/java-17-openjdk-17.0.14.0.7-2.el9.x86_64/bin/java</executable>
 				</configuration>
 			</plugin>
 

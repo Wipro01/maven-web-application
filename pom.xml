@@ -149,6 +149,21 @@
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
 					<wtpContextName>maven-web-application</wtpContextName>
+
+				<configuration>
+					<container>
+						<containerId>tomcat11x</containerId>
+						<type>remote</type>
+					</container>
+					<configuration>
+					  <type>runtime</type>
+					  <properties>
+					    <cargo.remote.username>admin</cargo.remote.username>
+                                            <cargo.remote.password>password</cargo.remote.password>
+                                            <cargo.remote.uri>http://65.2.127.45:8080/manager/text</cargo.remote.uri>
+					  </properties>
+					</configuration>
+				</configuration>
 				</configuration>
 			</plugin>
 			

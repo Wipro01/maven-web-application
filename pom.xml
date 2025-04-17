@@ -160,7 +160,7 @@
 					  <properties>
 					    <cargo.remote.username>admin</cargo.remote.username>
                                             <cargo.remote.password>password</cargo.remote.password>
-                                            <cargo.remote.uri>http://15.207.113.196:8080/manager/text</cargo.remote.uri>
+                                            <cargo.remote.uri>http://172.31.5.147:8080/manager/text</cargo.remote.uri>
 					  </properties>
 					</configuration>
 				</configuration>

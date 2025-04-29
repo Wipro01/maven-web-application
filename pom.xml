@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.23.155:8081/repository/si-release/</url>
+	      <url>http://13.201.33.176:8081/repository/si-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.23.155:8081/repository/si-snapshot/</url>
+	      <url>http://13.201.33.176:8081/repository/si-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
@@ -160,7 +160,7 @@
 					  <properties>
 					    <cargo.remote.username>admin</cargo.remote.username>
                                             <cargo.remote.password>password</cargo.remote.password>
-                                            <cargo.remote.uri>http://172.31.5.147:8080/manager/text</cargo.remote.uri>
+                                            <cargo.remote.uri>http://3.109.208.252:8080/manager/text</cargo.remote.uri>
 					  </properties>
 					</configuration>
 				</configuration>
